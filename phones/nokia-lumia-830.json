@@ -1,0 +1,60 @@
+{ 
+    "windows": {
+        "os": "Windows Phone 8.1"
+    },
+    "battery": {
+        "standbyTime": "22 days", 
+        "talkTime": "14.8 hours", 
+        "type": "Lithium Ion (Li-Ion) (2200 mAH)",
+		"replaceableBattery": true
+    }, 
+    "camera": {
+        "features": [
+            "Flash", 
+            "Video"
+        ], 
+        "main": "10.0 MP",
+        "front": "0.9 MP"
+    }, 
+    "connectivity": {
+        "bluetooth": "Bluetooth 4.0", 
+        "cell": "GSM: 850, 900, 1800, 1900 MHz WCDMA: Bands 1, 2, 5, 8 LTE FDD: Bands 1, 7, 8", 
+        "gps": true,
+        "wifi": "802.11 a/b/g/n"
+    }, 
+    "description": "PureView imaging, easy syncing and quick sharing - Live it. Sync it. Share it.", 
+    "display": {
+        "screenResolution": "HD720 (1280 x 720)", 
+        "screenSize": "5 ''", 
+        "touchScreen": true
+    }, 
+    "hardware": {
+        "accelerometer": true, 
+		"gyroscope": true,
+		"proximitySensor": true,
+        "magnetometer": true,
+        "audioJack": "3.5mm", 
+        "cpu": "Quad-core 1.2GHz",
+        "usb": "USB 2.0"
+    }, 
+    "id": "nokia-lumia-830", 
+    "images": [
+        "img/phones/nokia-lumia-830.0.1.jpg", 
+        "img/phones/nokia-lumia-830.0.2.jpg", 
+        "img/phones/nokia-lumia-830.0.3.jpg"
+    ], 
+    "name": "Nokia Lumia 830", 
+    "sizeAndWeight": {
+        "dimensions": [
+            "Height: 139.4 mm", 
+            "Width: 70.7 mm", 
+            "Thickness: 8.5 mm"
+        ], 
+        "weight": "150 g"
+    }, 
+    "storage": {
+        "mass": "16 GB", 
+        "ram": "1 GB",
+		"micro": "128 GB"
+    }
+}

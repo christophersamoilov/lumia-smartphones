@@ -1,0 +1,138 @@
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+
+html,
+body {
+    overflow-x: hidden;
+    /* Prevent scroll on narrow devices */
+}
+
+body {
+    padding-top: 70px;
+    background-color: rgb(255, 255, 255);
+    font-family: Segoe Ui;
+}
+
+footer {
+    padding: 30px 0;
+}
+
+.jumbotron {
+    background: url(../img/lumia950xl.png) 100% 50%;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    font-family: Segoe Ui;
+    height: 520px;
+}
+
+.preview-img {
+    height: 200px;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.preview-img .label {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    z-index: 1;
+    display: block;
+}
+
+.preview-img img {
+    max-height: 200px;
+}
+
+h2 {
+    font-size: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    color: rgba(54, 54, 54, 0.9);
+}
+
+.item {
+    height: 500px;
+}
+
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+
+@media screen and (max-width: 767px) {
+    .row-offcanvas {
+        position: relative;
+        -webkit-transition: all .25s ease-out;
+        transition: all .25s ease-out;
+    }
+    .row-offcanvas-right {
+        right: 0;
+    }
+    .row-offcanvas-left {
+        left: 0;
+    }
+    .row-offcanvas-right .sidebar-offcanvas {
+        right: -50%;
+        /* 6 columns */
+    }
+    .row-offcanvas-left .sidebar-offcanvas {
+        left: -50%;
+        /* 6 columns */
+    }
+    .row-offcanvas-right.active {
+        right: 50%;
+        /* 6 columns */
+    }
+    .row-offcanvas-left.active {
+        left: 50%;
+        /* 6 columns */
+    }
+    .sidebar-offcanvas {
+        position: absolute;
+        top: 0;
+        width: 50%;
+        /* 6 columns */
+    }
+}
+
+.phone-images {
+    text-align: center;
+}
+
+.phone-images img {
+    max-width: 100%;
+}
+
+.phone-thumbs li {
+    float: left;
+    padding: 16px;
+}
+
+.phone-thumbs li img {
+    height: 30%;
+    width: 30%;
+}
+
+.specs li {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+}
+
+.btn-default {
+    background-color: hsl(0, 0%, 90%) !important;
+    background-repeat: repeat-x;
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#118118118", endColorstr="#e5e5e5");
+    background-image: -khtml-gradient(linear, left top, left bottom, from(#118118118), to(#e5e5e5));
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #118118118), color-stop(100%, #e5e5e5));
+    background-image: -webkit-linear-gradient(top, #118118118, #e5e5e5);
+    background-image: -webkit-linear-gradient(#118118118, #e5e5e5);
+    background-image: linear-gradient(#118118118, #e5e5e5);
+    border-color: #e5e5e5 #e5e5e5 hsl(0, 0%, 85%);
+    color: #333 !important;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.33);
+    -webkit-font-smoothing: antialiased;
+}

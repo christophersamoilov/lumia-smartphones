@@ -1,0 +1,114 @@
+[
+    {
+        "age": 0, 
+        "id": "microsoft-lumia-532", 
+        "imageUrl": "img/phones/microsoft-lumia-532.0.0.png", 
+        "name": "Lumia 532 Dual Sim", 
+        "snippet": "The Lumia 532 Dual SIM is a powerful smartphone with the latest software and the best new Windows features.",
+        "status": true
+    }, 
+    {
+        "age": 1, 
+        "id": "microsoft-lumia-540", 
+        "imageUrl": "img/phones/microsoft-lumia-540.0.0.png", 
+        "name": "Lumia 540 Dual Sim", 
+        "snippet": "Get all the benefits of Microsoft services and see all your apps and games come to life on the beautiful 5 inch HD display.",
+        "status": true
+    }, 
+    {
+        "age": 2, 
+        "id": "microsoft-lumia-550", 
+        "imageUrl": "img/phones/microsoft-lumia-550.0.0.png", 
+        "name": "Lumia 550", 
+        "snippet": "Get to what matters faster with 4G LTE connectivity, smooth multitasking, and the all new Microsoft Edge browser.",
+        "status": true
+    }, 
+    {
+        "age": 3,
+        "id": "microsoft-lumia-640-3g", 
+        "imageUrl": "img/phones/microsoft-lumia-640-3g.0.0.png", 
+        "name": "Lumia 640 Dual Sim 3G", 
+        "snippet": "Featuring a large 5 inch HD display and the ease of Microsoft services built in and ready to go.",
+        "status": true
+    }, 
+    {
+        "age": 4, 
+        "id": "microsoft-lumia-640lte", 
+        "imageUrl": "img/phones/microsoft-lumia-640-lte.0.0.png", 
+        "name": "Lumia 640 LTE", 
+        "snippet": "Featuring a large 5 inch HD display and the ease of Microsoft services built in and ready to go.",
+        "status": true
+    }, 
+    {
+        "age": 5,
+        "id": "microsoft-lumia-640xl", 
+        "imageUrl": "img/phones/microsoft-lumia-640-xl.0.0.png", 
+        "name": "Lumia 640 XL", 
+        "snippet": "With a 5.7 inch HD display and a 13 MP camera, you have everything you need to find the perfect balance between work and play.",
+        "status": true
+    },
+    {
+        "age": 6, 
+        "id": "microsoft-lumia-950", 
+        "imageUrl": "img/phones/microsoft-lumia-950.0.0.png", 
+        "name": "Lumia 950", 
+        "snippet": "High-end features, premium design, and the best Windows 10 experience – turn inspiration into action with the phone that works like and your PC.",
+        "status": true
+    }, 
+    {
+        "age": 7,
+        "id": "microsoft-lumia-950xl", 
+        "imageUrl": "img/phones/microsoft-lumia-950-xl.0.0.png", 
+        "name": "Lumia 950 XL", 
+        "snippet": "With a stunning 5.7” Quad HD display, a powerful octa-core processor, and the best Windows 10 experience, it’s the Lumia you’ve been waiting for.",
+        "status": true
+    }, 
+    {
+        "age": 8,
+        "id": "nokia-lumia-525", 
+        "imageUrl": "img/phones/nokia-lumia-525.0.0.png", 
+        "name": "Lumia 525", 
+        "snippet": "Ultra-stylish smartphone with changeable shells and 1GB RAM for all the gaming, video and apps you can handle.",
+        "status": false
+    }, 
+    {
+        "age": 9,
+        "id": "nokia-lumia-735", 
+        "imageUrl": "img/phones/nokia-lumia-735.0.0.png", 
+        "name": "Lumia 735", 
+        "snippet": "Introducing the Lumia 735. Designed for the greatest selfie experience.",
+        "status": true
+    }, 
+    {
+        "age": 10,
+        "id": "nokia-lumia-830", 
+        "imageUrl": "img/phones/nokia-lumia-830.0.0.png", 
+        "name": "Lumia 830", 
+        "snippet": "PureView imaging, easy syncing and quick sharing - Live it. Sync it. Share it.",
+        "status": true
+    }, 
+    {
+        "age": 11,
+        "id": "nokia-lumia-930", 
+        "imageUrl": "img/phones/nokia-lumia-930.0.0.png", 
+        "name": "Lumia 930", 
+        "snippet": "With a bright, 5” Full HD display, 20MP Pureview Camera, Surround Sound recording, and built-in wireless charging.",
+        "status": false
+    }, 
+    {
+        "age": 12, 
+        "id": "nokia-lumia-1020", 
+        "imageUrl": "img/phones/nokia-lumia-1020.0.0.png", 
+        "name": "Lumia 1020", 
+        "snippet": "The only smartphone that captures more of the moment with a 41 megapixel camera sensor and Lumia Camera.",
+        "status": false
+    }, 
+    {
+        "age": 13,
+        "id": "nokia-lumia-1520", 
+        "imageUrl": "img/phones/nokia-lumia-1520.0.0.png", 
+        "name": "Lumia 1520", 
+        "snippet": "With a six-inch, super-sensitive, Full HD display and great readability in sunlight.",
+        "status": true
+    }
+]

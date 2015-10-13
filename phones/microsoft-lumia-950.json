@@ -1,0 +1,60 @@
+{
+    "windows": {
+        "os": "Windows 10"
+    },
+    "battery": {
+        "standbyTime": "12 days", 
+        "talkTime": "18 hours", 
+        "type": "Lithium Ion (Li-Ion) (3000 mAH)",
+		"replaceableBattery": true
+    }, 
+    "camera": {
+        "features": [
+            "Flash", 
+            "Video"
+        ], 
+        "main": "20.0 MP",
+        "front": "5.0 MP"
+    }, 
+    "connectivity": {
+        "bluetooth": "Bluetooth 4.1", 
+        "cell": "GSM: 850, 900, 1800, 1900 MHz WCDMA: Bands 1, 2, 4, 5, 8 LTE FDD: Bands 1, 2, 3, 4, 5, 7, 8, 12, 17, 20, 28 TD-LTE: Bands 38, 40", 
+        "gps": true,
+        "wifi": "802.11 a/b/g/n/ac"
+    }, 
+    "description": "High-end features, premium design, and the best Windows 10 experience – turn inspiration into action with the phone that works like and your PC.", 
+    "display": {
+        "screenResolution": "WQHD (2560 x 1440)", 
+        "screenSize": "5.2 ''", 
+        "touchScreen": true
+    }, 
+    "hardware": {
+        "accelerometer": true, 
+		"gyroscope": true,
+		"proximitySensor": true,
+        "magnetometer": true,
+        "audioJack": "3.5mm", 
+        "cpu": "Hexa-core 1.8 GHz",
+        "usb": "USB 3.1"
+    }, 
+    "id": "microsoft-lumia-950", 
+    "images": [
+        "img/phones/microsoft-lumia-950.0.1.jpg",
+        "img/phones/microsoft-lumia-950.0.2.jpg",
+        "img/phones/microsoft-lumia-950.0.3.jpg"
+    ], 
+    "name": "Microsoft Lumia 950", 
+    "sizeAndWeight": {
+        "dimensions": [
+            "Height: 145 mm", 
+            "Width: 73.2 mm", 
+            "Thickness: 8.2 mm"
+        ], 
+        "weight": "150 g"
+    }, 
+    "storage": {
+        "mass": "32 GB", 
+        "ram": "3 GB",
+        "micro": "200 GB"
+    }
+}

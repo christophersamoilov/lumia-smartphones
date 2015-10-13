@@ -1,0 +1,60 @@
+{ 
+    "windows": {
+        "os": "Windows 10"
+    },
+    "battery": {
+        "standbyTime": "28 days", 
+        "talkTime": "14 hours", 
+        "type": "Lithium Ion (Li-Ion) (2100 mAH)",
+		"replaceableBattery": true
+    }, 
+    "camera": {
+        "features": [
+            "Flash", 
+            "Video"
+        ], 
+        "main": "5.0 MP",
+        "front": "2.0 MP"
+    }, 
+    "connectivity": {
+        "bluetooth": "Bluetooth 4.0", 
+        "cell": "GSM: 850, 900, 1800, 1900 MHz WCDMA: Bands 1, 5, 8 LTE FDD: 1, 3, 7, 8, 20", 
+        "gps": true,
+        "wifi": "802.11 b/g/n"
+    }, 
+    "description": "Get to what matters faster with 4G LTE connectivity, smooth multitasking, and the all new Microsoft Edge browser.", 
+    "display": {
+        "screenResolution": "HD720 (1280 x 720)", 
+        "screenSize": "4.7 ''", 
+        "touchScreen": true
+    }, 
+    "hardware": {
+        "accelerometer": true, 
+		"gyroscope": false,
+		"proximitySensor": true,
+        "magnetometer": false,
+        "audioJack": "3.5mm", 
+        "cpu": "Quad-core 1.1 GHz",
+        "usb": "USB 2.0"
+    }, 
+    "id": "microsoft-lumia-550", 
+    "images": [
+        "img/phones/microsoft-lumia-550.0.1.jpg", 
+        "img/phones/microsoft-lumia-550.0.2.jpg", 
+        "img/phones/microsoft-lumia-550.0.3.jpg"
+    ], 
+    "name": "Microsoft Lumia 550", 
+    "sizeAndWeight": {
+        "dimensions": [
+            "Height: 136.1 mm", 
+            "Width: 67.8 mm", 
+            "Thickness: 9.9 mm"
+        ], 
+        "weight": "141.9 g"
+    }, 
+    "storage": {
+        "mass": "8 GB", 
+        "ram": "1 GB",
+		"micro": "128 GB"
+    }
+}

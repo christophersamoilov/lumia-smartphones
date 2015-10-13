@@ -1,0 +1,58 @@
+{
+    "windows": {
+        "os": "Windows Phone 8.1"
+    }, 
+    "battery": {
+        "standbyTime": "14 days", 
+        "talkTime": "10.6 hours", 
+        "type": "Lithium Ion (Li-Ion) (1430 mAH)",
+		"replaceableBattery": true
+    }, 
+    "camera": {
+        "features": [ 
+            "Video"
+        ], 
+        "main": "5.0 MP"
+    }, 
+    "connectivity": {
+        "bluetooth": "Bluetooth 4.0", 
+        "cell": "GSM: 850, 900, 1800, 1900 MHz WCDMA: Bands 1, 8", 
+        "gps": true,
+        "wifi": "802.11 b/g/n"
+    }, 
+    "description": "Ultra-stylish smartphone with changeable shells and 1GB RAM for all the gaming, video and apps you can handle.", 
+    "display": {
+        "screenResolution": "WVGA (800 x 480)", 
+        "screenSize": "4 ''", 
+        "touchScreen": true
+    }, 
+    "hardware": {
+        "accelerometer": true, 
+		"gyroscope": false,
+		"proximitySensor": true,
+        "magnetometer": false,
+        "audioJack": "3.5mm", 
+        "cpu": "Quad-core 1 GHz",
+        "usb": "USB 2.0"
+    }, 
+    "id": "nokia-lumia-525", 
+    "images": [
+        "img/phones/nokia-lumia-525.0.1.jpg",
+        "img/phones/nokia-lumia-525.0.2.jpg",
+        "img/phones/nokia-lumia-525.0.3.jpg"
+    ], 
+    "name": "Nokia Lumia 525", 
+    "sizeAndWeight": {
+        "dimensions": [
+            "Height: 64 mm", 
+            "Width: 119 mm", 
+            "Thickness: 9.9 mm"
+        ], 
+        "weight": "124 g"
+    }, 
+    "storage": {
+        "mass": "8 GB", 
+        "ram": "1 GB",
+		"micro": "64 GB"
+    }
+}

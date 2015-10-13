@@ -1,0 +1,60 @@
+{ 
+    "windows": {
+        "os": "Windows Phone 8.1"
+    },
+    "battery": {
+        "standbyTime": "35 days", 
+        "talkTime": "20.3 hours", 
+        "type": "Lithium Ion (Li-Ion) (1400 mAH)",
+		"replaceableBattery": true
+    }, 
+    "camera": {
+        "features": [
+            "Flash", 
+            "Video"
+        ], 
+        "main": "8.0 MP",
+        "front": "0.9 MP"
+    }, 
+    "connectivity": {
+        "bluetooth": "Bluetooth 4.0", 
+        "cell": "GSM: 850, 900, 1800, 1900 MHz WCDMA: Bands 1, 2, 5, 8", 
+        "gps": true,
+        "wifi": "802.11 b/g/n"
+    }, 
+    "description": "Featuring a large 5 inch HD display and the ease of Microsoft services built in and ready to go.", 
+    "display": {
+        "screenResolution": "HD720 (1280 x 720)", 
+        "screenSize": "5 ''", 
+        "touchScreen": true
+    }, 
+    "hardware": {
+        "accelerometer": true, 
+		"gyroscope": false,
+		"proximitySensor": true,
+        "magnetometer": true,
+        "audioJack": "3.5mm", 
+        "cpu": "Quad-core 1.2GHz",
+        "usb": "USB 2.0"
+    }, 
+    "id": "microsoft-lumia-640-3g", 
+    "images": [
+        "img/phones/microsoft-lumia-640-3g.0.1.jpg", 
+        "img/phones/microsoft-lumia-640-3g.0.2.jpg",
+        "img/phones/microsoft-lumia-640-3g.0.3.jpg"
+    ], 
+    "name": "Microsoft Lumia 640 3G Dual Sim", 
+    "sizeAndWeight": {
+        "dimensions": [
+            "Height: 141.3 mm", 
+            "Width: 72.2 mm", 
+            "Thickness: 8.8 mm"
+        ], 
+        "weight": "145 g"
+    }, 
+    "storage": {
+        "mass": "8 GB", 
+        "ram": "1 GB",
+		"micro": "128 GB"
+    }
+}

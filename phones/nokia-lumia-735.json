@@ -1,0 +1,60 @@
+{
+    "windows": {
+        "os": "Windows Phone 8.1"
+    },
+    "battery": {
+        "standbyTime": "25 days", 
+        "talkTime": "17 hours", 
+        "type": "Lithium Ion (Li-Ion) (2220 mAH)",
+		"replaceableBattery": true
+    }, 
+    "camera": {
+        "features": [
+            "Flash", 
+            "Video"
+        ], 
+        "main": "6.7 MP",
+        "front": "5.0 MP"
+    }, 
+    "connectivity": {
+        "bluetooth": "Bluetooth 4.0", 
+        "cell": "GSM: 850, 900, 1800, 1900 MHz WCDMA: Bands 1, 2, 5, 8 LTE FDD: Bands 2, 3, 4, 7, 13, 20 CDMA: Bands BC1, BC0", 
+        "gps": true,
+        "wifi": "802.11 b/g/n"
+    }, 
+    "description": "Introducing the Lumia 735. Designed for the greatest selfie experience.", 
+    "display": {
+        "screenResolution": "HD720 (1280 x 720)", 
+        "screenSize": "4.7 ''", 
+        "touchScreen": true
+    }, 
+    "hardware": {
+        "accelerometer": true, 
+		"gyroscope": false,
+		"proximitySensor": true,
+        "magnetometer": true,
+        "audioJack": "3.5mm", 
+        "cpu": "Quad-core 1.2GHz",
+        "usb": "USB 2.0"
+    }, 
+    "id": "nokia-lumia-735", 
+    "images": [
+        "img/phones/nokia-lumia-735.0.1.jpg", 
+        "img/phones/nokia-lumia-735.0.2.jpg", 
+        "img/phones/nokia-lumia-735.0.3.jpg"
+    ], 
+    "name": "Nokia Lumia 735", 
+    "sizeAndWeight": {
+        "dimensions": [
+            "Height: 134.7 mm", 
+            "Width: 68.5 mm", 
+            "Thickness: 8.9 mm"
+        ], 
+        "weight": "133.4 g"
+    }, 
+    "storage": {
+        "mass": "8 GB", 
+        "ram": "1 GB",
+		"micro": "128 GB"
+    }
+}

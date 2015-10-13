@@ -1,0 +1,59 @@
+{
+    "windows": {
+        "os": "Windows Phone 8.1"
+    }, 
+    "battery": {
+        "standbyTime": "22 days", 
+        "talkTime": "12 hours", 
+        "type": "Lithium Ion (Li-Ion) (1560 mAH)",
+		"replaceableBattery": true
+    }, 
+    "camera": {
+        "features": [ 
+            "Video"
+        ], 
+        "main": "5.0 MP",
+        "front": "0.3 MP"
+    }, 
+    "connectivity": {
+        "bluetooth": "Bluetooth 4.0", 
+        "cell": "GSM: 850, 900, 1800, 1900 MHz WCDMA: Bands 1, 8", 
+        "gps": true,
+        "wifi": "802.11 b/g/n"
+    }, 
+    "description": "The Lumia 532 Dual SIM is a powerful smartphone with the latest software and the best new Windows features.", 
+    "display": {
+        "screenResolution": "WVGA (800 x 480)", 
+        "screenSize": "4 ''", 
+        "touchScreen": true
+    }, 
+    "hardware": {
+        "accelerometer": true, 
+		"gyroscope": false,
+		"proximitySensor": true,
+        "magnetometer": false,
+        "audioJack": "3.5mm", 
+        "cpu": "Quad-core 1.2GHz",
+        "usb": "USB 2.0"
+    }, 
+    "id": "microsoft-lumia-532", 
+    "images": [
+        "img/phones/microsoft-lumia-532.0.1.jpg",
+        "img/phones/microsoft-lumia-532.0.2.jpg",
+        "img/phones/microsoft-lumia-532.0.3.jpg"
+    ], 
+    "name": "Microsoft Lumia 532 Dual Sim", 
+    "sizeAndWeight": {
+        "dimensions": [
+            "Height: 65.5 mm", 
+            "Width: 118.9 mm", 
+            "Thickness: 11.6 mm"
+        ], 
+        "weight": "136.3 g"
+    }, 
+    "storage": {
+        "mass": "8 GB", 
+        "ram": "1 GB",
+		"micro": "128 GB"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "windows": {
+        "os": "Windows Phone 8.1"
+    },
+    "battery": {
+        "standbyTime": "39 days", 
+        "talkTime": "23.7 hours", 
+        "type": "Lithium Ion (Li-Ion) (2500 mAH)",
+		"replaceableBattery": true
+    }, 
+    "camera": {
+        "features": [
+            "Flash", 
+            "Video"
+        ], 
+        "main": "13.0 MP",
+        "front": "5.0 MP"
+    }, 
+    "connectivity": {
+        "bluetooth": "Bluetooth 4.0", 
+        "cell": "GSM: 850, 900, 1800, 1900 MHz WCDMA: Bands 1, 2, 5, 8", 
+        "gps": true, 
+        "wifi": "802.11 b/g/n"
+    }, 
+    "description": "With a 5.7 inch HD display and a 13 MP camera, you have everything you need to find the perfect balance between work and play.", 
+    "display": {
+        "screenResolution": "HD720 (1280 x 720)", 
+        "screenSize": "5.7 ''", 
+        "touchScreen": true
+    }, 
+    "hardware": {
+        "accelerometer": true, 
+		"gyroscope": false,
+		"proximitySensor": true,
+        "magnetometer": true,
+        "audioJack": "3.5mm", 
+        "cpu": "Quad-core 1.2GHz",
+        "usb": "USB 2.0"
+    }, 
+    "id": "microsoft-lumia-640xl", 
+    "images": [
+        "img/phones/microsoft-lumia-640-xl.0.1.jpg", 
+        "img/phones/microsoft-lumia-640-xl.0.2.jpg", 
+        "img/phones/microsoft-lumia-640-xl.0.3.jpg"
+    ], 
+    "name": "Microsoft Lumia 640 XL", 
+    "sizeAndWeight": {
+        "dimensions": [
+            "Height: 157.9 mm", 
+            "Width: 81.5 mm", 
+            "Thickness: 9 mm"
+        ], 
+        "weight": "171 g"
+    }, 
+    "storage": {
+        "mass": "8 GB", 
+        "ram": "1 GB",
+		"micro": "128 GB"
+    }
+}

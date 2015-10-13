@@ -1,0 +1,60 @@
+{
+    "windows": {
+        "os": "Windows Phone 8.1"
+    },
+    "battery": {
+        "standbyTime": "24 days", 
+        "talkTime": "14.8 hours", 
+        "type": "Lithium Ion (Li-Ion) (2200 mAH)",
+		"replaceableBattery": true
+    }, 
+    "camera": {
+        "features": [
+            "Flash", 
+            "Video"
+        ], 
+        "main": "8.0 MP",
+        "front": "5.0 MP"
+    }, 
+    "connectivity": {
+        "bluetooth": "Bluetooth 4.0", 
+        "cell": "GSM: 850, 900, 1800, 1900 MHz WCDMA: Bands 1, 8", 
+        "gps": true,
+        "wifi": "802.11 b/g/n"
+    }, 
+    "description": "Get all the benefits of Microsoft services and see all your apps and games come to life on the beautiful 5 inch HD display.", 
+    "display": {
+        "screenResolution": "HD720 (1280 x 720)", 
+        "screenSize": "5 ''", 
+        "touchScreen": true
+    }, 
+    "hardware": {
+        "accelerometer": true, 
+		"gyroscope": false,
+		"proximitySensor": true,
+        "magnetometer": false,
+        "audioJack": "3.5mm", 
+        "cpu": "Quad-core 1.2GHz",
+        "usb": "USB 2.0"
+    }, 
+    "id": "microsoft-lumia-540", 
+    "images": [
+        "img/phones/microsoft-lumia-540.0.1.jpg",
+        "img/phones/microsoft-lumia-540.0.2.jpg",
+        "img/phones/microsoft-lumia-540.0.3.jpg"
+    ], 
+    "name": "Microsoft Lumia 540 Dual Sim", 
+    "sizeAndWeight": {
+        "dimensions": [
+            "Height: 144 mm", 
+            "Width: 73.7 mm", 
+            "Thickness: 8.6 mm"
+        ], 
+        "weight": "152 g"
+    }, 
+    "storage": {
+        "mass": "8 GB", 
+        "ram": "1 GB",
+		"micro": "128 GB"
+    }
+}

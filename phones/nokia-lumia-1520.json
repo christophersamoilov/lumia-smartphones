@@ -1,0 +1,60 @@
+{
+    "windows": {
+        "os": "Windows Phone 8.1"
+    },
+    "battery": {
+        "standbyTime": "32 days", 
+        "talkTime": "25.1 hours", 
+        "type": "Lithium Ion (Li-Ion) (3400 mAH)",
+		"replaceableBattery": false
+    }, 
+    "camera": {
+        "features": [
+            "Flash", 
+            "Video"
+        ], 
+        "main": "20.0 MP",
+        "front": "1.2 MP"
+    }, 
+    "connectivity": {
+        "bluetooth": "Bluetooth 4.0", 
+        "cell": "GSM: 850, 900, 1800, 1900 MHz WCDMA: Bands 1, 2, 5, 8 LTE FDD: Bands 1, 3, 7, 8", 
+        "gps": true,
+        "wifi": "802.11 a/b/g/n/ac"
+    }, 
+    "description": "With a six-inch, super-sensitive, Full HD display and great readability in sunlight.", 
+    "display": {
+        "screenResolution": "Full HD (1920 x 1080)", 
+        "screenSize": "6 ''", 
+        "touchScreen": true
+    }, 
+    "hardware": {
+        "accelerometer": true, 
+		"gyroscope": true,
+		"proximitySensor": true,
+        "magnetometer": true,
+        "audioJack": "3.5mm", 
+        "cpu": "Quad-core 2.2 GHz",
+        "usb": "USB 2.0"
+    }, 
+    "id": "nokia-lumia-1520", 
+    "images": [
+        "img/phones/nokia-lumia-1520.0.1.jpg", 
+        "img/phones/nokia-lumia-1520.0.2.jpg", 
+        "img/phones/nokia-lumia-1520.0.3.jpg"
+    ], 
+    "name": "Nokia Lumia 1520", 
+    "sizeAndWeight": {
+        "dimensions": [
+            "Height: 162.8 mm", 
+            "Width: 85.4 mm", 
+            "Thickness: 8.7 mm"
+        ], 
+        "weight": "209 g"
+    }, 
+    "storage": {
+        "mass": "32 GB", 
+        "ram": "2 GB",
+		"micro": "64 GB"
+    }
+}
