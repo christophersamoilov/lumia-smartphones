@@ -20,6 +20,10 @@ lumiaStore.config([
                 templateUrl: 'support.html',
                 controller: 'SupportCtrl'
             })
+            .when('/contact', {
+                templateUrl: 'contact.html',
+                controller: 'ContactCtrl'
+            })
             .when('/phones/:phoneId', {
                 templateUrl: 'phone-detail.html',
                 controller: 'PhoneDetailCtrl'
@@ -81,6 +85,14 @@ lumiaStore.controller('ProductsCtrl', [
 
 /* Support Controller */
 lumiaStore.controller('SupportCtrl', [
+  '$scope', '$http', '$location',
+  function ($scope, $http, $location) {
+
+  }
+]);
+
+/* Contact Controller */
+lumiaStore.controller('ContactCtrl', [
   '$scope', '$http', '$location',
   function ($scope, $http, $location) {
 
