@@ -6,6 +6,8 @@
 html,
 body {
     overflow-x: hidden;
+    position: relative;
+    min-height: 100%;
     /* Prevent scroll on narrow devices */
 }
 
@@ -13,6 +15,7 @@ body {
     padding-top: 70px;
     background-color: rgb(255, 255, 255);
     font-family: Segoe Ui;
+    margin-bottom: 60px;
 }
 
 footer {
@@ -56,6 +59,7 @@ h2 {
     height: 500px;
 }
 
+
 /*
  * Navbar Menu
  * --------------------------------------------------
@@ -75,6 +79,7 @@ h2 {
     color: rgb(255, 255, 255);
     background-color: rgb(69, 69, 69);
 }
+
 
 /*
  * Off Canvas
@@ -158,4 +163,25 @@ h2 {
 
 .map {
     margin: 10px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
+
+.container-footer {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+}
+
+.fa-twitter-square {
+    color: rgb(48, 178, 247);
+}
+
+.fa-facebook-square {
+    color: rgb(55, 84, 162);
 }
