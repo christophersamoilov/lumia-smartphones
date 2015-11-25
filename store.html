@@ -1,43 +1,71 @@
 <div class="row row-offcanvas row-offcanvas-right">
-    <div class="jumbotron">
-        <div class="container text-left">
-            <br><br><br>
-            <h1>Microsoft Lumia</h1>
-            <p>Powerful mobile devices that help you do more.</p>
-            <br>
-        </div>
-    </div>
-    <div class="" col-sm-12 col-md-8 col-lg-6 " sidebar-offcanvas" id="sidebar">
-        <h3 class="text-center"></h3>
-        <div class="list-group">
-            <div class="list-group text-center">
-                <form>
-                    <input type="text" class="form-control" placeholder="Search your Lumia" ng-model="search">
-                </form>
+    <div class="container carousel">
+           <div class="carousel slide" id="image-carousel" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="img/carousel/windows.jpg" alt="" class="img-responsive">
+                    <div class="carousel-caption">
+                        <h1>Powered by Windows 10</h1>
+                        <h4>Office documents and photos are in sync across devices and your favorite apps, games, music, and videos are in one place with the brand new Windows Store.</h4>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/carousel/hello.jpg" alt="" class="img-responsive">
+                    <div class="carousel-caption">
+                        <h1>Windows Hello</h1>
+                        <h4>Simply show your face or use your fingerprint to login and be immediately recognized and greeted with a smile.</h4>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/carousel/experience.jpg" alt="" class="img-responsive">
+                    <div class="carousel-caption">
+                        <h1>One Windows experience</h1>
+                        <h4>Apps, games, and music are in one place with the brand new Windows Store and Cortana sends helpful reminders to all your Windows 10 devices.</h4>
+                    </div>
+                </div>
             </div>
+            <!-- Controls -->
+            <a href="#image-carousel" class="left carousel-control" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            </a>
+            <a href="#image-carousel" class="right carousel-control" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            </a>
         </div>
     </div>
-    <!--/.sidebar-offcanvas-->
-    <div class="" col-sm-12 col-md-8 col-lg-6 "">
-        <p class="pull-right visible-xs">
-            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas"></button>
-        </p>
+</div>
+<div class="" col-sm-12 col-md-8 col-lg-6 " sidebar-offcanvas" id="sidebar">
+    <h3 class="text-center"></h3>
+    <div class="list-group">
+        <div class="list-group text-center">
+            <form>
+                <input type="text" class="form-control" placeholder="Search your Lumia" ng-model="search">
+            </form>
+        </div>
+    </div>
+</div>
+<!--/.sidebar-offcanvas-->
+<div class="" col-sm-12 col-md-8 col-lg-6 "">
+    <p class="pull-right visible-xs">
+        <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas"></button>
+    </p>
 
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-lg-4 item" ng-repeat="phone in phones | filter: search">
-                <div class="preview-img text-center">
-                    <img ng-src="{{phone.imageUrl}}" alt="{{phone.name}}" />
-                    <span class="label" ng-init="status = phone.status ? 'In Store' : 'Order'" ng-class="{'label-success':phone.status, 'label-warning': !phone.status}">
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-lg-4 item" ng-repeat="phone in phones | filter: search">
+            <div class="preview-img text-center">
+                <img ng-src="{{phone.imageUrl}}" alt="{{phone.name}}" />
+                <span class="label" ng-init="status = phone.status ? 'In Store' : 'Order'" ng-class="{'label-success':phone.status, 'label-warning': !phone.status}">
               {{status}}
             </span>
-                </div>
-                <h2>{{phone.name}}</h2>
-                <p>{{phone.snippet}}</p>
-                <p><a class="btn btn-default" href="#/phones/{{phone.id}}" role="button">See full specification &raquo;</a></p>
             </div>
-            <!--/.col-sm-6.col-lg-4-->
+            <h2>{{phone.name}}</h2>
+            <p>{{phone.snippet}}</p>
+            <p><a class="btn btn-default" href="#/phones/{{phone.id}}" role="button">See full specification &raquo;</a></p>
         </div>
+        <!--/.col-sm-6.col-lg-4-->
     </div>
-    <!--/.col-xs-12.col-sm-8-->
+</div>
+<!--/.col-xs-12.col-sm-8-->
 </div>
 <!--/row-->
